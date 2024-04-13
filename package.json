@@ -1,0 +1,25 @@
+{
+  "name": "c-digo-tradutor",
+  "displayName": "código tradutor",
+  "description": "traduz codigo para portugues",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "html javascript typescript css ",
+      "aliases": ["pt-br", "html javascript typescript css "],
+      "extensions": [""],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "html javascript typescript css ",
+      "scopeName": "",
+      "path": "./syntaxes/html javascript typescript css .tmLanguage.json"
+    }]
+  }
+}
